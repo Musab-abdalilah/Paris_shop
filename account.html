@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body dir="rtl">
+    <!-- headerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+                </div>
+                <!-- nav bar -->
+                <nav>
+                    <img src="images/bars-solid.svg" alt="menu" class="menu-icon" onclick="menutoggle()">
+                    <ul id="MenuItems">
+
+                        </b>
+                        <li><a href="index.html">الرئيسية</a></li>
+
+
+                        <li><a href="productspages/products.html">تسوق</a></li>
+
+
+
+                        <li><a href="abuot_us.html">حول</a></li>
+
+
+
+                        <li><a href="account.html" target="-blank">تسجيل</a></li>
+
+                    </ul>
+                    <img src="images/bag.jpg" alt="" width="32px" class="bag-icon">
+                </nav>
+            </div>
+            <!-- first show -->
+            <div class="account-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="images/logo.jpg" alt="">
+                        </div>
+                        <!-----------------form login----------------->
+                        <div class="col-2">
+                            <div class="form-container">
+                                <div class="form-btn">
+                                    <span onclick="login()">تسجيل الدخول</span>
+                                    <span onclick="register()">تسجيل</span>
+                                    <hr id="Indicator">
+                                </div>
+                                <form action="" id="LoginForm">
+                                    <input type="text" placeholder="اسم المستخدم" required>
+                                    <input type="password" placeholder="كلمة المرور" required>
+                                    <button type="submit" class="btn">تسجيل الدخول</button>
+                                    <a href="">نسيت كلمة المرور</a>
+                                </form>
+                                <form action="" id="RegForm">
+                                    <input type="text" placeholder="اسم المستخدم" required>
+                                    <input type="email" placeholder="بريد الكتروني" required>
+                                    <input type="password" placeholder="كلمة المرور" required>
+                                    <button type="submit" class="btn">تسجيل </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ---------------FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTER-------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h2><span class="mark"> متجر </span><span class="pari"> باريس</span></h2>
+                        <p>المتجر الأفضل للتسوق الالكتروني </p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo1.jpg">
+                        <a href="abuot_us.html">
+                            <p> ________الأبلاغ عن المشاكل_________</p>
+                        </a>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>روابط مهمة</h3>
+                        <ul>
+                            <li><img src="images/facebook-brands.svg" alt=""></li>
+                            <li><img src="images/youtube-brands.svg" alt=""></li>
+                            <li><img src="images/instagram-brands.svg" alt=""> </li>
+                            <li> <img src="images//twitter-brands.svg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">حقوق الطبع محفوظه لدينا 2022 &copy;</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="javas.js"></script>
+
+</body>
+
+</html>
