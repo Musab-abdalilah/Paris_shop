@@ -390,6 +390,15 @@ input:focus{
   flex-basis: 24%;
   cursor:pointer;
 }
+.pro-en-name{
+  color: #554c4a;
+}
+.pro-en-name::after{
+  content: " )";
+}
+.pro-en-name::before{
+  content: "( ";
+}
 
 
 /* -------------account-page------------- */
@@ -535,6 +544,10 @@ form a{
   border-radius: 30px;
    padding-bottom: 20px;
  
+}
+
+textarea{
+  max-width: 2000px; min-width:100%;
 }
 
 .contact input:hover{
